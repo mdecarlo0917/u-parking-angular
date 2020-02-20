@@ -10,7 +10,7 @@
         </thead>
         <tbody>
             <tr *ngFor="let vehicle of vehicles">
-                <td><a [routerLink]="['/vehicles', vehicle.vehicleId]">{{vehicle.vehicleId}}</a></td>
+                <td>{{vehicle.vehicleId}}</td>
                 <td>{{vehicle.make}}</td>
                 <td>{{vehicle.model}}</td>
                 <td>{{vehicle.licensePlate}}</td>
